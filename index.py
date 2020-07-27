@@ -5,6 +5,7 @@ def main () :
     while True :
         try : 
             num = input("Enter decimal number: ")
+            num = float(num)
             break
         except NameError :
             print("Input was not a number")
